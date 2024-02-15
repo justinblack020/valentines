@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game_intro.css">
+    <link rel="stylesheet" href="../styles.css">
+    <title>First game</title>
+</head>
+<body>
+    <div id="container" class="flex flex-col items-center min-h-screen gap-3">
+        <h1 class="z-50 Pixieboy h-full text-6xl pt-5 text-center">Solve these <span class="bg-pink-400 py-2">three word puzzles</span> to <br> get a hint for the final answer!</h1>
+        <h2 class="z-50 Pixieboy h-full text-2xl pt-10 text-center">The first word of the restaurant with the <br> famous, and our favorite, "Avacodo Bomb." </h2>
+        <div id="sushi" class="crossword">
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box bg-pink-300" autocomplete="off" />
+        </div>
+        <h2 class="z-50 Pixieboy h-full text-2xl pt-10 text-center">Our favorite place to order Nachos... <br> and Mountain Dew Dark Berry Bash. </h2>
+        <div id="applebees" class="crossword">
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="bg-pink-300 crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+        </div>
+        <h2 class="z-50 Pixieboy h-full text-2xl pt-10 text-center">The name of the video game where we met. </h2>
+        <div id="among us" class="crossword">
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="bg-pink-300 crossword-box ml-10" autocomplete="off" />
+            <input type="text" name="d" maxlength="1" class="crossword-box" autocomplete="off" />
+        </div>
+        <h2 class="z-50 Pixieboy h-full text-2xl pt-10 text-center">What's the final answer? <br> Hint: It's three words, all spelled out. <br> (If you're confused, treat the last <br> letter as if it is said aloud!) </h2>
+        <input id="answer" class="mt-5 crossword-answer" type="text" name="d" maxlength="10">
+        <button id="confirm" class="mt-10 button-8bit">CHECK MY ANSWER!
+        </button>
+    </div>
+    </div>
+</body>
+
+<script src="https://cdn.tailwindcss.com"> </script>
+<script src="game1.js"> </script>
+</html>

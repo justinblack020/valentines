@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game_intro.css">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="video-container relative flex justify-center items-center h-screen">
+        <video id="cameraFeed" class="scale-x-[-1] w-full h-full object-cover" autoplay playsinline></video>
+        <div class="overlay absolute top-0 left-0 w-full h-full bg-[url('../images/jail.png')] bg-no-repeat bg-center bg-cover"></div>
+    </div>
+</body>
+<script src="https://cdn.tailwindcss.com"> </script>
+<script src="stole.js"></script>
+
+<script src="game_intro.js"> </script>
+</html>

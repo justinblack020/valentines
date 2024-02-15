@@ -1,0 +1,12 @@
+#container {
+    background-color: pink;
+}
+
+@font-face {  
+    font-family: Pixeboy;
+    src: url(fonts/Pixeboy.ttf) format("truetype");
+}
+
+.Pixieboy {
+    font-family: Pixeboy;
+}
